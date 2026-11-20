@@ -1,0 +1,21 @@
+# Name: Your Name | Roll No: Your Roll No | Assignment: 2
+# ---- Task 1 ----
+$ git init --bare ../html-remote
+Initialized empty Git repository in /home/claude/gitdemo/html-remote/
+$ git remote add origin ../html-remote
+$ git remote -v
+origin	../html-remote (fetch)
+origin	../html-remote (push)
+
+# ---- Task 2 ----
+$ git push origin main
+To ../html-remote
+ * [new branch]      main -> main
+
+# ---- Task 3 ----
+$ git clone html-remote html-copy
+Cloning into 'html-copy'...
+done.
+$ git log --oneline
+ba12716 Add next meeting heading
+581e98c Add home page
