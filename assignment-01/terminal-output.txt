@@ -1,0 +1,39 @@
+# Name: Your Name | Roll No: Your Roll No | Assignment: 1
+# ---- Task 1 ----
+$ mkdir html-lab
+$ git init -b main
+Initialized empty Git repository in /home/claude/gitdemo/html-lab/.git/
+$ git config --local user.name "Your Name"
+$ git config --local user.email "yourname@example.com"
+$ git config user.name
+Your Name
+$ git config user.email
+yourname@example.com
+
+# ---- Task 2 ----
+$ echo '<h1>Welcome to my HTML Lab</h1>' > index.html
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git add index.html
+$ git commit -m "Add home page"
+[main (root-commit) 581e98c] Add home page
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
+
+# ---- Task 3 ----
+$ echo '<h2>Next meeting: Monday</h2>' >> index.html
+$ git add index.html
+$ git commit -m "Add next meeting heading"
+[main ba12716] Add next meeting heading
+ 1 file changed, 1 insertion(+)
+$ git log --oneline
+ba12716 Add next meeting heading
+581e98c Add home page
