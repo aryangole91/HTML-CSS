@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- Name: Your Name | Roll No: Your Roll No | Assignment: 15 -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile First</title>
+  <style>
+    /* base styles for phones: cards stack */
+    .cards { display: block; }
+    .card { border: 2px solid #1d3557; border-radius: 10px; padding: 16px; margin-bottom: 12px; background: #eef6ff; }
+    /* 600px and up: cards sit side by side */
+    @media (min-width: 600px) {
+      .cards { display: flex; gap: 16px; }
+      .card { flex: 1; margin-bottom: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cards">
+    <div class="card"><h2>Card One</h2><p>This card stacks on phones.</p></div>
+    <div class="card"><h2>Card Two</h2><p>At 600px and up, it sits beside card one.</p></div>
+  </div>
+</body>
+</html>
