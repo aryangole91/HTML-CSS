@@ -1,7 +1,8 @@
 # BCS352 - HTML and CSS Introduction Lab
 
-Name: Your Name  
-Roll No: Your Roll No  
+Name: Aryan Gole  
+Student ID: BCS2025444  
+Roll No: 2510303135 | Student ID: BCS2025444  
 Invertis University, Bareilly - B.Tech CSE, 2nd Year
 
 Each folder `assignment-NN/` has the code files and a `screenshots/` folder.

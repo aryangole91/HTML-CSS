@@ -1,12 +1,12 @@
-# Name: Your Name | Roll No: Your Roll No | Assignment: 1
+# Name: Aryan Gole | Roll No: 2510303135 | Student ID: BCS2025444 | Assignment: 1
 # ---- Task 1 ----
 $ mkdir html-lab
 $ git init -b main
 Initialized empty Git repository in /home/claude/gitdemo/html-lab/.git/
-$ git config --local user.name "Your Name"
+$ git config --local user.name "Aryan Gole"
 $ git config --local user.email "yourname@example.com"
 $ git config user.name
-Your Name
+Aryan Gole
 $ git config user.email
 yourname@example.com
 
